@@ -17,7 +17,14 @@ A lightweight, custom Python web scraper built to automate the collection and an
 
 ## 🚀 How to Run It Local
 
-### 1. Clone the repository or download the script:
-```bash
-git clone [https://github.com/YOUR_USERNAME/hh-parser-ds.git](https://github.com/YOUR_USERNAME/hh-parser-ds.git)
-cd hh-parser-ds
+### Install the required dependencies:
+pip install requests beautifulsoup4 pandas openpyxl
+
+
+#### Run the parser:
+python perviyparser.py
+
+##### Once the execution finishes, you will find a freshly generated hh_vacancies.xlsx file in your project directory. 🎉
+
+created by Yeskendir from Almaty heheh
+
